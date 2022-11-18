@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section_one {
+    background-image: url(/images/developer.png);
+    min-height: 100vh;
+    color: white;
+    /* text-align: center; */
+    line-height: 75px;
+    font-size: 50px;
+    
+}
+.section_one h1{
+    display: inline-block;
+    font-size: 70px;
+}.section_one h3{
+    display: inline-block;
+    font-size: 25px;
+}
+.heading{
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    top: 10vh;
+    /* margin-left: 17vw; */text-align: left;
+
+    
+}
+.section_two {
+    min-height: 150px;
+    background-color: black;
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    padding: 50px;
+}
+.section_three {
+    display: flex;
+    /* align-content: space-between; */
+    justify-content: center;
+
+    padding: 50px;
+    height: 450px;
+}
+.webd {
+    text-align: center;
+    /* margin: 0 au; */
+    /* padding: 0 20px; */
+    max-width: 320px;
+    margin-left: 30px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    box-shadow: 6px 9px 10px rgb(174, 172, 172);
+
+}
+.section_four {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 200px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.section_four h1 {
+
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    
+}
+.box1{
+    background-color: rgb(70, 108, 77);
+}
+.box2{
+    background-color: rgb(176, 67, 67);
+}
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 60px;
+    font-size: 30px;
+}
+.webd:hover {
+    transition: ease-in;
+    max-width: 340px;
+}
